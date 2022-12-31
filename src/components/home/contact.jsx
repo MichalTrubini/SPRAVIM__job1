@@ -14,7 +14,7 @@ const Contact = () => {
           <input className={styles.input} type="text" placeholder="Meno" />
           <input className={styles.input} type="text" placeholder="Priezvisko" />
           <input className={styles.input} type="emmail" placeholder="Email" />
-          <input className={styles.input} type="text" placeholder="Správa" />
+          <textarea className={`${styles.input} ${styles.textarea}`} type="text" placeholder="Správa" rows='10'/>
         </div>
         <button className={styles.button} type="submit">Odoslať</button>
       </form>
