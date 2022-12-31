@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2.4rem 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.author {
+    font-size: 1.4rem;
+}
