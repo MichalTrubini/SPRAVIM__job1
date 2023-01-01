@@ -8,8 +8,8 @@
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .input {
@@ -32,4 +32,11 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+.errorMessage {
+    color: red;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
 }
