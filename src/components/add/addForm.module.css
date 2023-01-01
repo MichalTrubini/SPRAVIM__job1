@@ -3,13 +3,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 2rem;
-}
-
-.inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 
 .input {
@@ -20,8 +14,11 @@
     padding: 1.2rem 2rem;
 }
 
-.textarea {
-    font-family: inherit;
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .button {
@@ -33,11 +30,4 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 3rem;
-}
-
-.errorMessage {
-    color: red;
-    padding-left: 2rem;
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
 }

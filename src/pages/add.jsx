@@ -1,7 +1,9 @@
+import AddForm from "../components/add/addForm";
+
 const Add = () => {
   return (
-    <main>
-      <p className="main container">Add</p>
+    <main className="main container">
+      <AddForm />
     </main>
   );
 };
