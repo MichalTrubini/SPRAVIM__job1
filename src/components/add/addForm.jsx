@@ -14,10 +14,11 @@ const AddForm = () => {
   const changeHandler = (e) => {
     setFormData((prevData) => ({ ...prevData, [e.target.name]: e.target.value }));
   };
-  console.log(formData);
+
   const submitHandler = (e) => {
     e.preventDefault();
   };
+  
   return (
     <div className={styles.formContainer}>
       <h2 className={styles.heading}>Pridať člena rodiny</h2>

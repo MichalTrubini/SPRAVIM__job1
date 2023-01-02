@@ -1,7 +1,10 @@
+import Members from "../components/load/members";
+
 const Load = () => {
+
   return (
     <main className="main container">
-      <p>Load</p>
+      <Members />
     </main>
   );
 };

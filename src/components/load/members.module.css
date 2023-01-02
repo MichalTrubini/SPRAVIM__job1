@@ -1,0 +1,28 @@
+.heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.table {
+    font-size: 1.4rem;
+    width: 100%;
+    max-width: 60rem;
+}
+
+.tableRow {
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+@media screen and (min-width:768px) {
+    .table {
+        font-size: 1.6rem;
+    }
+    
+}
