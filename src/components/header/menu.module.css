@@ -1,0 +1,13 @@
+.list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+
+.listItem {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
