@@ -3,7 +3,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .input {
@@ -30,4 +30,34 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 3rem;
+}
+
+.imageContainer {
+    padding: 3rem;
+    max-width: 40rem;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        margin-top: 6rem;
+    }
+    .imageContainer, .inputs {
+        width: 50%;
+    }
+
+    .imageContainer {
+        padding: 0;
+    }
+    .imageContainer img {
+        max-width: 28rem;
+    }
 }
