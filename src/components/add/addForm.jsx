@@ -3,6 +3,13 @@ import styles from "./addForm.module.css";
 import person from "../../assets/man.svg";
 
 const AddForm = () => {
+
+  //input, do ktoreho vpisuje uzivatel z frontendu, feeduje data cez setFormData do formData; spravte si napriklad console.log(formData) a vpisujte do inputov a v konzole budete vidiet zmeny
+  //ked uzivatel klikne na button, spusti sa submitHandler, ktory validuje data ulozene vo formData; tu si vsimame len, ci pole nie je prazdne; ak je, potom napr idEmpty sa zmeni na true
+  //toto vsetko robime, lebo sa chceme uistit, ze do databazy neposielame prazdne hodnoty
+  //ci je alebo nie je chyba v objekte "error" vyhodnocuje "validationError" --> ak sa tam nachadza co i len jedno "true", potom hodnota validationError je tiez true
+  //ked spravite backend a budete chciet poslat udaje do databazy, orientujte sa podla booleanu vo "validationError" --> ak true, potom neposlat, ak false, potom poslat
+
   const [formData, setFormData] = useState({
     id: "",
     memberName: "",

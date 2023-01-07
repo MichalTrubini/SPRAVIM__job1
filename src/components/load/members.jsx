@@ -1,6 +1,26 @@
 import styles from "./members.module.css";
 
-const Members = (props) => {
+const Members = () => {
+
+  //subor dole s nazvom "data" je dummy. Obsahuje testovacie udaje, aby sa zatial cosi vykreslilo na obrazovke
+  //ked bude dorobeny backend s napojenim na databazu, treba natiahnut data z tadial; subor bude musiet mat taku istu strukturu ako tento dummy, aby map metoda v jsx fungovala, ako je teraz nakodena
+  //
+  //Do kodu nizsie treba dat spravnu URL, ked sa pomocou backend spravi API endpoint
+  //tento kod stiahne dane data po prvotnom nacitani stranky, to je vdaka useEffect.; nasledne zmeni stav pomocou useState, kam sa ulozia data; data budu v konstante "user", ktoru treba potom namapovat
+  //
+  // function App() { 
+  //   const [user, setUser] = useState([]);
+  
+  //   const fetchData = () => {
+  //     return fetch("https://jsonplaceholder.typicode.com/users")
+  //           .then((response) => response.json())
+  //           .then((data) => setUser(data));
+  //   }
+  
+  //   useEffect(() => {
+  //     fetchData();
+  //   },[])
+
   const data = [
     {
       id: 1,
